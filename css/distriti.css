@@ -1,0 +1,132 @@
+
+/*FONDO*/
+body {
+    /*background-color: aqua;*/
+  font-family: 'Shrikhand', cursive;
+font-family: 'Playfair Display', serif;
+   background-image: url("http://www.hdfondos.eu/preview/get_photo/30979/1920/1080");
+    background-size: 100%;
+}
+
+      body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* AMBA*/
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: AntiqueWhite;
+  
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color:aqua;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Gracias por tu visita*/
+footer {
+    padding: 30px;
+    text-align: center;
+    color: AntiqueWhite;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+p span {
+  float: right;
+}
+/*enlaces*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+/*letras del enlace */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:black;
+
+}
+/*Buenos aires ciudad*/
+.amar {
+  background-color: transparent;
+  color: white;
+}
+h1{
+  text-align: center;
+  text-shadow: 1px 1px blue;
+
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   color:white;
+}
+
+#customers td, #customers th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color:  transparent;}
+
+#customers tr:hover {background-color: white;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:  transparent;
+    color: white ;
+}
